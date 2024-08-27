@@ -23,3 +23,11 @@ Este proyecto está diseñado para funcionar solo con letras minúsculas y sin c
 ## Requisitos
 
 - Navegador Web Moderno (Chrome, Firefox, Edge, etc.)
+
+## Vista previa
+
+![image](https://github.com/user-attachments/assets/ce483196-eaef-4035-965f-ae3c32d1e227)
+
+![image](https://github.com/user-attachments/assets/08af530c-efa6-41ab-8ebe-da4001db7261)
+
+![image](https://github.com/user-attachments/assets/a6788b91-bff7-498f-b976-d26ac25bdefa)
