@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font family - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./styles.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  <header class="header-content">
+    <img src="./assets/Logo.png" alt="logo">
+  </header>
+  <main class="main-content">
+    <!-- input section -->
+    <section class="input-section">
+      <textarea name="input-area" id="text-area-input" placeholder="Ingrese el texto aqui" class="text-area area-encrypt"></textarea>
+      <div class="line-information">
+        <img src="./assets/icons/bi_exclamation-circle-fill.svg" alt="">
+        <p>Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="btn-section">
+        <button id="btn-encrypt" class="btn btn-primary">Encriptar</button>
+        <button id="btn-unencrypt" class="btn btn-secondary">Desencriptar</button>
+      </div>
+    </section>
+    <!-- output section -->
+    <section class="output-section">
+      <div id="not-found" class="content-not-found">
+        <img class="image-nf" alt="image-not-fount-s" src="./assets/Muñeco.png">
+        <div class="content-message">
+          <h3 class="text-nf">Ningún mensaje fue encontrado</h3>
+          <p class="tip-nf">Ingresa el texto que desee encriptar o desencriptar</p>
+        </div>
+      </div>
+      <textarea name="output-area" id="text-area-output" placeholder="Text" class="text-area area-unencrypt hidden"></textarea>
+      <button id="btn-copy-content" class="btn btn-secondary hidden">Copiar</button>
+    </section>
+  </main>
+  <footer class="footer-content">
+    <span class="author">© 2024 José Condori Palomino. Todos los derechos reservados.</span>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
